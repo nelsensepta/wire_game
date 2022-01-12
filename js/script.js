@@ -379,7 +379,8 @@ document.onreadystatechange = () => {
         .then((res) => res.json())
         .then((res) => {
           if (!res.status) {
-            Player.register();
+            // Player.register();
+            alert(res.message);
 
             // var inputEmail = document.createElement("input");
             // email.setAttribute("type", "email");
